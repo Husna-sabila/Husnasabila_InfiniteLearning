@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gambar1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/img_1" />
+
+    <TextView
+        android:id="@+id/txt_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:fontFamily="@font/poppinsregular"
+        android:padding="10dp"
+        android:text="Validasi Akun !!!!!"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/kolom"
+        android:layout_below="@+id/txt_2"
+        android:hint="Username"
+        android:paddingTop="4dp"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="8dp"
+        android:fontFamily="@font/poppinsregular"
+        android:id="@+id/username"
+        />
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/kolom"
+        android:layout_below="@+id/username"
+        android:hint="Password"
+        android:paddingTop="4dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="8dp"
+        android:fontFamily="@font/poppinsregular"
+        android:id="@+id/pw"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pw"
+        android:width="300dp"
+        android:text="LOGIN"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_shape"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:fontFamily="@font/poppinsbold"
+        android:id="@+id/login"/>
+
+</RelativeLayout>
